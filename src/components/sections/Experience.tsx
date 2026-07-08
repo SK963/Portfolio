@@ -116,6 +116,7 @@ const Experience = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         className="mb-4 overflow-hidden rounded-lg border border-border/30"
                       >
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img 
                           src={exp.image} 
                           alt={exp.company} 

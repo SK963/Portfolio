@@ -162,11 +162,9 @@ export default function ProjectDetail({ params }: { params: Promise<{ id: string
   // Use JSON data if available, otherwise fallback to hardcoded data
   const projectData = {
     ...project,
-    liveDemo: jsonProject?.liveDemo || jsonProject?.deploymentLink || project.liveDemo || '#',
-    github: jsonProject?.githubLink || project.github || '#',
-    images: jsonProject?.Project_photo?.map((photo: string) => 
-      photo.startsWith('/assets') ? photo : `/assets/images/${photo}`
-    ) || project.images
+    liveDemo: jsonProject?.liveDemo || project.liveDemo || '#',
+    github: jsonProject?.github || project.github || '#',
+    images: project.images
   };
 
   // Debug logging to check if JSON data is loaded correctly

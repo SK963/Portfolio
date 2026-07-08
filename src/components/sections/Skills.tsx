@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code, Database, Globe, Server, Smartphone, Wrench, Cloud, Terminal } from "lucide-react";
+import { Database, Globe, Server, Wrench, Cloud, Terminal, LucideIcon } from "lucide-react";
 import userData from "@/data/user.json"
 
 
@@ -11,7 +11,7 @@ import userData from "@/data/user.json"
 
 const Skills = () => {
 
-  const skillIcons: { [key: string]: any } = {
+  const skillIcons: Record<string, LucideIcon> = {
     "Frontend Development": Globe,
     "Backend Development": Server,
     "DevOps": Wrench,

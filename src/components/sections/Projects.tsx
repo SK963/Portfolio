@@ -104,8 +104,8 @@ const Projects = () => {
     const jsonData = getProjectDataFromJSON(project.id);
     return {
       ...project,
-      liveDemo: jsonData?.liveDemo || jsonData?.deploymentLink || project.liveDemo,
-      github: jsonData?.githubLink || project.github
+      liveDemo: jsonData?.liveDemo || project.liveDemo,
+      github: jsonData?.github || project.github
     };
   });
 
