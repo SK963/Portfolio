@@ -1,8 +1,26 @@
 {
   "name": "Shubham Kumar",
   "title": "Full Stack Developer",
-  "technologies": ["Node.js" , "TypeScript" , "React" , "Express.js" , "MongoDB" , "AWS" , "DevOps"],
-  "technologies.DS": ["Python", "Machine Learning", "TensorFlow", "Pandas", "NumPy", "Scikit-learn", "Deep Learning", "AI/ML", "Data Science"],
+  "technologies": [
+    "Node.js",
+    "TypeScript",
+    "React",
+    "Express.js",
+    "MongoDB",
+    "AWS",
+    "DevOps"
+  ],
+  "technologies.DS": [
+    "Python",
+    "Machine Learning",
+    "TensorFlow",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "Deep Learning",
+    "AI/ML",
+    "Data Science"
+  ],
   "experienceSummary": {
     "yearsExperience": "1+",
     "projectsCompleted": "15+",
@@ -14,103 +32,135 @@
     "phone": "+91 6201200394",
     "location": "Ranchi, Jharkhand"
   },
-  "Socials" : {
-    "github" : "https://github.com/SK963",
-    "linkedin" : "https://www.linkedin.com/in/ks963/",
-    "instagram" : "https://www.instagram.com/kumarshubham_963/",
-    "leetcode" : "https://codolio.com/profile/SK963",
-    "notion_notes" : "https://tinyurl.com/963notes"
+  "Socials": {
+    "github": "https://github.com/SK963",
+    "linkedin": "https://www.linkedin.com/in/ks963/",
+    "instagram": "https://www.instagram.com/kumarshubham_963/",
+    "leetcode": "https://codolio.com/profile/SK963",
+    "notion_notes": "https://tinyurl.com/963notes"
   },
-  "about" : {
-      "information": {
-          "title": "About Me",
-          "description": "I'm a passionate full stack developer with a love for creating innovative solutions and building robust applications that make a difference.",
-          "sectionTitle": "Building the Future with Code",
-          "introduction": "As a passionate full stack developer eager to begin my professional journey, I specialize in building modern, user-focused web applications. My enthusiasm for software development is driven by curiosity, creativity, and a constant desire to learn and improve.",
-          "philosophy": "I believe in writing clean, efficient, and maintainable code while continuously learning new tools and best practices. Whether it’s developing interactive front-end interfaces or understanding scalable backend logic, I approach each challenge with focus and determination.",
-          "personalNote": "When I’m not coding, I enjoy exploring emerging technologies, working on personal projects, and contributing to open-source communities to sharpen my skills and collaborate with other developers."
-        },
-      "highlights": [
-          {
-            "title": "Full Stack Development",
-            "description": "Experienced in both frontend and backend technologies",
-            "icon": "Code"
-          },
-          {
-            "title": "Modern Technologies",
-            "description": "Working with the latest frameworks and tools",
-            "icon": "Globe"
-          },
-          {
-            "title": "Professional Experience",
-            "description": "Currently working at MAQ Software Solutions",
-            "icon": "Laptop"
-          },
-          {
-            "title": "Team Collaboration",
-            "description": "Strong experience in agile development and teamwork",
-            "icon": "Users"
-          }
-      ],
+  "about": {
+    "information": {
+      "title": "About Me",
+      "description": "I'm a passionate full stack developer with a love for creating innovative solutions and building robust applications that make a difference.",
+      "sectionTitle": "Building the Future with Code",
+      "introduction": "As a passionate full stack developer eager to begin my professional journey, I specialize in building modern, user-focused web applications. My enthusiasm for software development is driven by curiosity, creativity, and a constant desire to learn and improve.",
+      "philosophy": "I believe in writing clean, efficient, and maintainable code while continuously learning new tools and best practices. Whether it’s developing interactive front-end interfaces or understanding scalable backend logic, I approach each challenge with focus and determination.",
+      "personalNote": "When I’m not coding, I enjoy exploring emerging technologies, working on personal projects, and contributing to open-source communities to sharpen my skills and collaborate with other developers."
+    },
+    "highlights": [
+      {
+        "title": "Full Stack Development",
+        "description": "Experienced in both frontend and backend technologies",
+        "icon": "Code"
+      },
+      {
+        "title": "Modern Technologies",
+        "description": "Working with the latest frameworks and tools",
+        "icon": "Globe"
+      },
+      {
+        "title": "Team Collaboration",
+        "description": "Strong experience in agile development and teamwork",
+        "icon": "Users"
+      }
+    ],
     "stats": [
-                {
-                  "value": "15+",
-                  "label": "Tools and Technologies"
-                },
-                {
-                  "value": "10+",
-                  "label": "Personal Projects Completed"
-                },
- 
-                {
-                  "value": "3+",
-                  "label": "Achievements"
-                },
-                {
-                  "value" : "20+",
-                  "label": "Freelance Project"
-                }
+      {
+        "value": "15+",
+        "label": "Tools and Technologies"
+      },
+      {
+        "value": "10+",
+        "label": "Personal Projects Completed"
+      },
+      {
+        "value": "3+",
+        "label": "Achievements"
+      },
+      {
+        "value": "20+",
+        "label": "Freelance Project"
+      }
     ]
   },
-  "experience" : {
-    "title" : "My professional journey through various companies and roles",
+  "experience": {
+    "title": "My professional journey through various companies and roles",
     "workexperience": [
-            {
-              "role": "Freelance Web Developer",
-              "type": "Freelance",
-              "title" : "AI Code Evaluation Trainer",
-              "company": "Outlier",
-              "period" : "MAR 2025 - SEP 2025",
-              "location": "Remote",
-              "image": "/assets/experience/Outlier.webp",
-              "description": ["Worked on ML-driven web apps using Python and React"],
-              "achievements": ["Completed 15+ client projects", "Maintained 100% client satisfaction", "Built recurring revenue stream"],
-              "technologies": ["Python", "Machine Learning", "AI/ML", "TensorFlow", "PyTorch", "Computer Vision", "NLP", "Data Analytics", "MLOps"]
-            },
-            {
-              "role": "Participant",
-              "type": "Hackathon",
-              "title" : "COD : 1st runner up",
-              "company": "Code of Duty",
-              "period" : "2024",
-              "location": "On-site",
-              "image": "/assets/experience/COD.webp",
-              "description": ["Built a 'Study Buddy' application using modern web technologies.", "Secured 1st runner up position in the hackathon."],
-              "achievements": ["1st Runner Up", "Developed Study Buddy app"],
-              "technologies": ["React", "Node.js", "Web Technologies", "JavaScript"]
-            },
-            {
-              "role": "Problem Solver",
-              "type": "Practice",
-              "title" : "200+ DSA Problems",
-              "company": "LeetCode / CodeChef",
-              "period" : "Ongoing",
-              "location": "Remote",
-              "image": "/assets/experience/DSA.png",
-              "description": ["Consistently solved data structures and algorithms problems in Java to improve logic and coding skills."],
-              "achievements": ["200+ problems solved", "Maintained active streak", "Improved competitive programming rating"],
-              "technologies": ["Java", "Algorithms", "Data Structures", "Problem Solving"]
-            }
+      {
+        "role": "Freelance Web Developer",
+        "type": "Freelance",
+        "title": "AI Code Evaluation Trainer",
+        "company": "Outlier",
+        "period": "MAR 2025 - SEP 2025",
+        "location": "Remote",
+        "image": "/assets/experience/Outlier.webp",
+        "description": [
+          "Worked on ML-driven web apps using Python and React"
+        ],
+        "achievements": [
+          "Completed 15+ client projects",
+          "Maintained 100% client satisfaction",
+          "Built recurring revenue stream"
+        ],
+        "technologies": [
+          "Python",
+          "Machine Learning",
+          "AI/ML",
+          "TensorFlow",
+          "PyTorch",
+          "Computer Vision",
+          "NLP",
+          "Data Analytics",
+          "MLOps"
+        ]
+      },
+      {
+        "role": "Participant",
+        "type": "Hackathon",
+        "title": "COD : 1st runner up",
+        "company": "Code of Duty",
+        "period": "2024",
+        "location": "On-site",
+        "image": "/assets/experience/COD.webp",
+        "description": [
+          "Built a 'Study Buddy' application using modern web technologies.",
+          "Secured 1st runner up position in the hackathon."
+        ],
+        "achievements": [
+          "1st Runner Up",
+          "Developed Study Buddy app"
+        ],
+        "technologies": [
+          "React",
+          "Node.js",
+          "Web Technologies",
+          "JavaScript"
+        ]
+      },
+      {
+        "role": "Problem Solver",
+        "type": "Practice",
+        "title": "200+ DSA Problems",
+        "company": "LeetCode / CodeChef",
+        "period": "Ongoing",
+        "location": "Remote",
+        "image": "/assets/experience/DSA.png",
+        "description": [
+          "Consistently solved data structures and algorithms problems in Java to improve logic and coding skills."
+        ],
+        "achievements": [
+          "200+ problems solved",
+          "Maintained active streak",
+          "Improved competitive programming rating"
+        ],
+        "technologies": [
+          "Java",
+          "Algorithms",
+          "Data Structures",
+          "Problem Solving"
+        ]
+      }
     ]
   },
   "education": [
@@ -122,11 +172,12 @@
       "period": "2022 - 2026",
       "grade": "7.5 CGPA",
       "description": "Focused on software engineering, data structures, algorithms, and web development. Completed projects on AI/ML and full-stack development.",
-      "achievements": ["Dean's List for Academic Excellence", 
-                        "President of Computer Science Club", 
-                        "Winner of Inter-College Coding Competition", 
-                        "Published research paper on Web Technologies"
-                      ]
+      "achievements": [
+        "Dean's List for Academic Excellence",
+        "President of Computer Science Club",
+        "Winner of Inter-College Coding Competition",
+        "Published research paper on Web Technologies"
+      ]
     },
     {
       "degree": "Senior Secondary (12th)",
@@ -136,7 +187,11 @@
       "location": "Ranchi, Jharkhand",
       "grade": "81.82%",
       "description": "Studied core science subjects including Physics, Chemistry, and Mathematics with a strong interest in Computer Science. Developed analytical and problem-solving skills through academic and extracurricular projects.",
-      "achievements": ["School Topper in Computer Science", "State Level Mathematics Olympiad Participant", "Science Club Secretary"]
+      "achievements": [
+        "School Topper in Computer Science",
+        "State Level Mathematics Olympiad Participant",
+        "Science Club Secretary"
+      ]
     },
     {
       "degree": "Secondary (10th)",
@@ -146,129 +201,198 @@
       "location": "Bokaro, Jharkhand",
       "grade": "81.82%",
       "description": "Built a solid academic foundation in science and mathematics with an early interest in technology and programming. Participated actively in school competitions and academic clubs.",
-      "achievements": ["School Topper in Computer Science", "State Level Mathematics Olympiad Participant", "Science Club Secretary"]
+      "achievements": [
+        "School Topper in Computer Science",
+        "State Level Mathematics Olympiad Participant",
+        "Science Club Secretary"
+      ]
     }
   ],
   "certifications": [
-  {
-    "name": "Meta Full Stack Developer: Front-End & Back-End from Scratch Specialization",
-    "issuer": "Coursera",
-    "year": "2025",
-    "id": "ZBUWLFGK9MPB",
-    "url": "https://www.coursera.org/specializations/meta-full-stack-developer",
-    "description": "An industry-recognized specialization designed by Meta engineers to master full-stack web development. Focused on building scalable web applications using React, Node.js, and modern API design. Culminated in a capstone project simulating real-world deployment and version control workflows.",
-    "skills": [
-      "React",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "REST APIs",
-      "Git & GitHub",
-      "Front-End Development",
-      "Back-End Development"
-    ]
-  },
-  {
-    "name": "Oracle Cloud Infrastructure 2025 DevOps Professional",
-    "issuer": "Oracle",
-    "year": "2025",
-    "id": "",
-    "url": "https://education.oracle.com",
-    "description": "Advanced certification focused on automating CI/CD pipelines, infrastructure provisioning, and deployment workflows on OCI. Demonstrated expertise in container orchestration, Terraform automation, and cloud-native DevOps culture. Validated proficiency in building resilient, secure, and scalable delivery pipelines.",
-    "skills": [
-      "OCI DevOps Services",
-      "CI/CD Pipelines",
-      "Terraform on OCI",
-      "Monitoring & Logging",
-      "Containerization",
-      "Automation"
-    ]
-  },
-  {
-    "name": "NPTEL: Cloud Computing",
-    "issuer": "Indian Institute of Technology Kharagpur",
-    "year": "2025",
-    "id": "24CS118S1670202549",
-    "url": "https://file.notion.so/f/f/30b2d675-635e-4745-8770-bba9e4ed543a/c16e4c9a-abbf-4681-bf8d-facd5b310bf8/Cloud_Computing.pdf?table=block&id=15aedbba-a061-8091-81be-f5fd35af87bd&spaceId=30b2d675-635e-4745-8770-bba9e4ed543a&expirationTimestamp=1761962400000&signature=eVRSdH48NYpS5Sg5Q81CwyqbAPb3CIDtmkG7CH4o5C4&downloadName=Cloud+Computing.pdf",
-    "description": "A rigorous academic course emphasizing distributed systems, virtualization, and scalable cloud architectures. Provided deep insights into the design principles of modern cloud infrastructures. Strengthened the ability to evaluate cloud services and architect optimized, fault-tolerant systems.",
-    "skills": [
-      "Cloud Architecture",
-      "Virtualization",
-      "Distributed Systems",
-      "Scalability & Load Balancing",
-      "Cloud Deployment Models",
-      "IaaS / PaaS / SaaS"
-    ]
-  },
-  {
-    "name": "Oracle Cloud Infrastructure Certified Multicloud Architect Professional",
-    "issuer": "Oracle",
-    "year": "2023",
-    "id": "COURSERA-FS-321",
-    "url": "https://education.oracle.com",
-    "description": "Distinguished certification validating expertise in designing and managing multi-cloud architectures. Focused on seamless interoperability between OCI, AWS, Azure, and Google Cloud. Showcased advanced skills in cloud migration, networking, and cross-cloud security orchestration.",
-    "skills": [
-      "Multicloud Architecture",
-      "OCI Integration",
-      "Cloud Networking",
-      "Hybrid Deployments",
-      "Security & Compliance",
-      "Performance Optimization"
-    ]
-  }
-]
-,
+    {
+      "name": "Meta Full Stack Developer: Front-End & Back-End from Scratch Specialization",
+      "issuer": "Coursera",
+      "year": "2025",
+      "id": "ZBUWLFGK9MPB",
+      "url": "https://www.coursera.org/specializations/meta-full-stack-developer",
+      "description": "An industry-recognized specialization designed by Meta engineers to master full-stack web development. Focused on building scalable web applications using React, Node.js, and modern API design. Culminated in a capstone project simulating real-world deployment and version control workflows.",
+      "skills": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "REST APIs",
+        "Git & GitHub",
+        "Front-End Development",
+        "Back-End Development"
+      ]
+    },
+    {
+      "name": "Oracle Cloud Infrastructure 2025 DevOps Professional",
+      "issuer": "Oracle",
+      "year": "2025",
+      "id": "",
+      "url": "https://education.oracle.com",
+      "description": "Advanced certification focused on automating CI/CD pipelines, infrastructure provisioning, and deployment workflows on OCI. Demonstrated expertise in container orchestration, Terraform automation, and cloud-native DevOps culture. Validated proficiency in building resilient, secure, and scalable delivery pipelines.",
+      "skills": [
+        "OCI DevOps Services",
+        "CI/CD Pipelines",
+        "Terraform on OCI",
+        "Monitoring & Logging",
+        "Containerization",
+        "Automation"
+      ]
+    },
+    {
+      "name": "NPTEL: Cloud Computing",
+      "issuer": "Indian Institute of Technology Kharagpur",
+      "year": "2025",
+      "id": "24CS118S1670202549",
+      "url": "https://file.notion.so/f/f/30b2d675-635e-4745-8770-bba9e4ed543a/c16e4c9a-abbf-4681-bf8d-facd5b310bf8/Cloud_Computing.pdf?table=block&id=15aedbba-a061-8091-81be-f5fd35af87bd&spaceId=30b2d675-635e-4745-8770-bba9e4ed543a&expirationTimestamp=1761962400000&signature=eVRSdH48NYpS5Sg5Q81CwyqbAPb3CIDtmkG7CH4o5C4&downloadName=Cloud+Computing.pdf",
+      "description": "A rigorous academic course emphasizing distributed systems, virtualization, and scalable cloud architectures. Provided deep insights into the design principles of modern cloud infrastructures. Strengthened the ability to evaluate cloud services and architect optimized, fault-tolerant systems.",
+      "skills": [
+        "Cloud Architecture",
+        "Virtualization",
+        "Distributed Systems",
+        "Scalability & Load Balancing",
+        "Cloud Deployment Models",
+        "IaaS / PaaS / SaaS"
+      ]
+    },
+    {
+      "name": "Oracle Cloud Infrastructure Certified Multicloud Architect Professional",
+      "issuer": "Oracle",
+      "year": "2023",
+      "id": "COURSERA-FS-321",
+      "url": "https://education.oracle.com",
+      "description": "Distinguished certification validating expertise in designing and managing multi-cloud architectures. Focused on seamless interoperability between OCI, AWS, Azure, and Google Cloud. Showcased advanced skills in cloud migration, networking, and cross-cloud security orchestration.",
+      "skills": [
+        "Multicloud Architecture",
+        "OCI Integration",
+        "Cloud Networking",
+        "Hybrid Deployments",
+        "Security & Compliance",
+        "Performance Optimization"
+      ]
+    }
+  ],
   "skills": [
     {
       "title": "Frontend Development",
       "skills": [
-        { "name": "HTML", "level": 90 },
-        { "name": "CSS", "level": 90 },
-        { "name": "JavaScript", "level": 90 },
-        { "name": "React.js", "level": 85 },
-        { "name": "Tailwind", "level": 85 }
+        {
+          "name": "HTML",
+          "level": 90
+        },
+        {
+          "name": "CSS",
+          "level": 90
+        },
+        {
+          "name": "JavaScript",
+          "level": 90
+        },
+        {
+          "name": "React.js",
+          "level": 85
+        },
+        {
+          "name": "Tailwind",
+          "level": 85
+        }
       ]
     },
     {
       "title": "Backend Development",
       "skills": [
-        { "name": "JavaScript", "level": 90 },
-        { "name": "TypeScript", "level": 85 },
-        { "name": "Express.js", "level": 80 },
-        { "name": "Next.js", "level": 85 }
+        {
+          "name": "JavaScript",
+          "level": 90
+        },
+        {
+          "name": "TypeScript",
+          "level": 85
+        },
+        {
+          "name": "Express.js",
+          "level": 80
+        },
+        {
+          "name": "Next.js",
+          "level": 85
+        }
       ]
     },
     {
       "title": "DevOps",
       "skills": [
-        { "name": "Bash", "level": 80 },
-        { "name": "Docker", "level": 80 },
-        { "name": "Kubernetes", "level": 75 },
-        { "name": "Jenkins", "level": 75 }
+        {
+          "name": "Bash",
+          "level": 80
+        },
+        {
+          "name": "Docker",
+          "level": 80
+        },
+        {
+          "name": "Kubernetes",
+          "level": 75
+        },
+        {
+          "name": "Jenkins",
+          "level": 75
+        }
       ]
     },
     {
       "title": "Cloud",
       "skills": [
-        { "name": "HCL", "level": 80 },
-        { "name": "AWS", "level": 85 },
-        { "name": "Terraform", "level": 80 }
+        {
+          "name": "HCL",
+          "level": 80
+        },
+        {
+          "name": "AWS",
+          "level": 85
+        },
+        {
+          "name": "Terraform",
+          "level": 80
+        }
       ]
     },
     {
       "title": "Databases & SQL",
       "skills": [
-        { "name": "SQL", "level": 85 },
-        { "name": "MySQL", "level": 85 },
-        { "name": "PostgreSQL", "level": 80 },
-        { "name": "MongoDB", "level": 85 }
+        {
+          "name": "SQL",
+          "level": 85
+        },
+        {
+          "name": "MySQL",
+          "level": 85
+        },
+        {
+          "name": "PostgreSQL",
+          "level": 80
+        },
+        {
+          "name": "MongoDB",
+          "level": 85
+        }
       ]
     },
     {
       "title": "OS",
       "skills": [
-        { "name": "Bash", "level": 85 },
-        { "name": "Bash Scripting", "level": 85 }
+        {
+          "name": "Bash",
+          "level": 85
+        },
+        {
+          "name": "Bash Scripting",
+          "level": 85
+        }
       ]
     }
   ],
@@ -279,14 +403,22 @@
     "Beginner": "60-69%"
   },
   "projects": [
-    { 
-      "type" : "inuse",
-      "id": "tribelingo", 
+    {
+      "type": "inuse",
+      "id": "tribelingo",
       "name": "TribeLingo",
       "title": "TribeLingo",
       "description": "AI-powered Kokborok language platform with Translation, POS tagging, and Conversational AI Chatbot.",
       "image": "/assets/projects/tribelingo/image 15.png",
-      "technologies": ["React.js", "Express.js", "Python", "K8s", "Postgres", "Redis", "Figma"],
+      "technologies": [
+        "React.js",
+        "Express.js",
+        "Python",
+        "K8s",
+        "Postgres",
+        "Redis",
+        "Figma"
+      ],
       "features": [
         "Machine Translation with NLLB Transformer",
         "Morphological POS Tagging (BiLSTM)",
@@ -299,14 +431,18 @@
       "timeline": "May 2026",
       "team": "1 member"
     },
-    { 
-      "type" : "inuse",
-      "id": "notecraft", 
+    {
+      "type": "inuse",
+      "id": "notecraft",
       "name": "NoteCraft",
       "title": "NoteCraft",
       "description": "A note taking application with a clean interface and user dashboard.",
       "image": "/assets/projects/notecraft/image.png",
-      "technologies": ["React.js", "Express.js", "MongoDB"],
+      "technologies": [
+        "React.js",
+        "Express.js",
+        "MongoDB"
+      ],
       "features": [
         "User Authentication (Login/Signup)",
         "Notes Management",
@@ -319,14 +455,16 @@
       "timeline": "July 2025",
       "team": "1 member"
     },
-    { 
-      "type" : "inuse",
-      "id": "hr-analytics-excel", 
+    {
+      "type": "inuse",
+      "id": "hr-analytics-excel",
       "name": "HR Analytics",
       "title": "HR Analytics Excel Dashboard",
       "description": "An Excel-based analysis dashboard for Human Resources data.",
       "image": "/assets/projects/hr-analytics-excel/image.png",
-      "technologies": ["Excel"],
+      "technologies": [
+        "Excel"
+      ],
       "features": [
         "Data visualization and reporting",
         "Employee attrition analysis",
@@ -338,14 +476,17 @@
       "timeline": "2025",
       "team": "1 member"
     },
-    { 
-      "type" : "inuse",
-      "id": "ibm-hr-tableau", 
+    {
+      "type": "inuse",
+      "id": "ibm-hr-tableau",
       "name": "IBM HR Analytics",
       "title": "IBM HR Analytics Tableau Dashboard",
       "description": "A Tableau visualization dashboard for analyzing IBM HR data.",
       "image": "/assets/projects/ibm-hr-tableau/image.png",
-      "technologies": ["Tableau", "Excel"],
+      "technologies": [
+        "Tableau",
+        "Excel"
+      ],
       "features": [
         "Advanced data visualization",
         "Interactive Tableau dashboards",
