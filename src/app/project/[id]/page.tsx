@@ -13,7 +13,6 @@ const getProjectFromJSON = (id: string) => {
   const projectMappings: { [key: string]: string } = {
     "cake-delight": "Cake Delight",
     "tribelingo": "TribeLingo",
-    "notecraft": "NoteCraft",
     "hr-analytics-excel": "HR Analytics",
     "ibm-hr-tableau": "IBM HR Analytics"
   };

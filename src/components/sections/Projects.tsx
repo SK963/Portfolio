@@ -11,7 +11,6 @@ const getProjectDataFromJSON = (projectId: string) => {
   const projectMappings: { [key: string]: string } = {
     "cake-delight": "Cake Delight",
     "tribelingo": "TribeLingo",
-    "notecraft": "NoteCraft",
     "hr-analytics-excel": "HR Analytics",
     "ibm-hr-tableau": "IBM HR Analytics"
   };
@@ -62,24 +61,6 @@ const Projects = () => {
       github: "https://github.com/SK963/TribeLingo-Gateway",
       category: "Data Science, Web",
       timeline: "May 2026",
-      team: "1 member"
-    },
-    {
-      id: "notecraft",
-      title: "NoteCraft",
-      description: "A note taking application with a clean interface and user dashboard.",
-      image: "/assets/projects/notecraft/image.png",
-      technologies: ["React.js", "Express.js", "MongoDB"],
-      features: [
-        "User Authentication (Login/Signup)",
-        "Notes Management",
-        "Clean Interface",
-        "User Dashboard"
-      ],
-      liveDemo: "https://notemehere.netlify.app/",
-      github: "https://github.com/SK963/Notecraft",
-      category: "Web",
-      timeline: "July 2025",
       team: "1 member"
     },
     {

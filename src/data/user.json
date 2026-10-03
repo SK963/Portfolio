@@ -462,30 +462,6 @@
     },
     {
       "type": "inuse",
-      "id": "notecraft",
-      "name": "NoteCraft",
-      "title": "NoteCraft",
-      "description": "A note taking application with a clean interface and user dashboard.",
-      "image": "/assets/projects/notecraft/image.png",
-      "technologies": [
-        "React.js",
-        "Express.js",
-        "MongoDB"
-      ],
-      "features": [
-        "User Authentication (Login/Signup)",
-        "Notes Management",
-        "Clean Interface",
-        "User Dashboard"
-      ],
-      "liveDemo": "https://notemehere.netlify.app/",
-      "github": "https://github.com/SK963/Notecraft",
-      "category": "Web",
-      "timeline": "July 2025",
-      "team": "1 member"
-    },
-    {
-      "type": "inuse",
       "id": "hr-analytics-excel",
       "name": "HR Analytics",
       "title": "HR Analytics Excel Dashboard",
