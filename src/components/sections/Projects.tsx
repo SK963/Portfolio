@@ -39,7 +39,7 @@ const Projects = () => {
         "JWT-Based Authentication",
         "Kubernetes Orchestration"
       ],
-      liveDemo: "https://ckaedelight.onrender.com",
+      liveDemo: "https://cakedelight.onrender.com",
       github: "https://github.com/SK963/cake-delight",
       category: "Full Stack, Microservices",
       timeline: "Aug 2026",
