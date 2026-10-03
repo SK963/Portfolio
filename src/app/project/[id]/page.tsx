@@ -103,37 +103,6 @@ const projectsData = {
       "LoRA fine-tuned Gemma-2B-it model"
     ]
   },
-  "notecraft": {
-    id: "notecraft",
-    title: "NoteCraft",
-    description: "A note taking application with a clean interface and user dashboard.",
-    fullDescription: "NoteCraft is a comprehensive note-taking application designed with a focus on simplicity and productivity. It features a clean, intuitive interface that allows users to quickly capture ideas, organize thoughts, and access their notes from anywhere. Built with a robust full-stack architecture, it ensures secure data storage and fast performance.",
-    technologies: ["React.js", "Express.js", "MongoDB", "Node.js"],
-    features: [
-      "User Authentication (Login/Signup)",
-      "Secure Notes Management",
-      "Clean, Distraction-Free Interface",
-      "Interactive User Dashboard"
-    ],
-    images: [
-      "/assets/projects/notecraft/image.png",
-      "/assets/projects/notecraft/Screenshot_2025-03-07_143244.png",
-      "/assets/projects/notecraft/Screenshot_2025-03-07_143316.png",
-      "/assets/projects/notecraft/Screenshot_2025-03-07_143519.png",
-      "/assets/projects/notecraft/Screenshot_2025-03-07_143536.png",
-      "/assets/projects/notecraft/Screenshot_2025-03-07_143547.png"
-    ],
-    liveDemo: "https://notemehere.netlify.app/",
-    github: "https://github.com/SK963/Notecraft",
-    category: "Web",
-    timeline: "July 2025",
-    team: "1 member",
-    highlights: [
-      "Secure user authentication",
-      "Responsive and clean design",
-      "Real-time note updates"
-    ]
-  },
   "hr-analytics-excel": {
     id: "hr-analytics-excel",
     title: "HR Analytics Excel Dashboard",

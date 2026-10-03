@@ -39,7 +39,7 @@ const Projects = () => {
         "JWT-Based Authentication",
         "Kubernetes Orchestration"
       ],
-      liveDemo: "https://cakedelight.onrender.com/",
+      liveDemo: "https://ckaedelight.onrender.com",
       github: "https://github.com/SK963/cake-delight",
       category: "Full Stack, Microservices",
       timeline: "Aug 2026",
@@ -58,7 +58,7 @@ const Projects = () => {
         "Microservices Architecture"
       ],
       liveDemo: "https://tribelingo.onrender.com/",
-      github: "https://github.com/SK963/TribeLingo-Gateway",
+      github: "https://github.com/SK963/TribeLingo",
       category: "Data Science, Web",
       timeline: "May 2026",
       team: "1 member"
