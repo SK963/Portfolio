@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowLeft, ExternalLink, Github, Calendar, Users, Star } from "lucide-react";
 import Image from "next/image";
+import Mermaid from "@/components/Mermaid";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { use } from "react";
@@ -57,8 +58,9 @@ const projectsData = {
       "/assets/projects/cake-delight/image8.png",
       "/assets/projects/cake-delight/image9.png"
     ],
-    liveDemo: "#",
+    liveDemo: "https://ckaedelight.onrender.com",
     github: "https://github.com/SK963/cake-delight",
+    architecture: 'graph TB\n    User([User / Browser])\n\n    subgraph Edge["Edge Layer / Gateway"]\n        Gateway["API Gateway<br/>Node.js + Express 4 + Mongoose<br/>:3000"]\n    end\n\n    subgraph Frontend["Frontend SPA"]\n        Client["Modern Web Client<br/>Vite + Vanilla JS / CSS<br/>:5173 (Dev) / :8080 (Prod)"]\n    end\n\n    subgraph Microservices["Core Business Microservices"]\n        Catalog["Catalog Service<br/>Node.js / Express / Multer<br/>:3001"]\n        OrderSvc["Order Service<br/>Node.js / Express / KafkaJS<br/>:3002"]\n        RatingSvc["Rating Service<br/>Node.js / Express / Mongoose<br/>:3003"]\n        NotifSvc["Notification Service<br/>Node.js / Express / KafkaJS<br/>:3004"]\n    end\n\n    subgraph EventTier["Event-Driven Message Broker"]\n        Kafka[("Apache Kafka (KRaft Mode)<br/>Topic: order-events<br/>:9092 / :29092")]\n    end\n\n    subgraph Storage["Persistence Layer (MongoDB 7.0)"]\n        MongoAuth[("auth-db")]\n        MongoCatalog[("catalog-db")]\n        MongoOrder[("order-db")]\n        MongoRating[("rating-db")]\n        MongoNotif[("notification-db")]\n    end\n\n    User -->|HTTP / Browser| Client\n    User -->|HTTP REST / JWT| Gateway\n    Client -->|API Calls & Uploads| Gateway\n\n    Gateway -->|Auth / Users| MongoAuth\n    Gateway -->|HTTP Proxy /api/cakes| Catalog\n    Gateway -->|HTTP Proxy /api/basket, /api/orders| OrderSvc\n    Gateway -->|HTTP Proxy /api/cakes/:id/ratings| RatingSvc\n    Gateway -->|HTTP Proxy /api/notifications| NotifSvc\n\n    Catalog --> MongoCatalog\n    OrderSvc --> MongoOrder\n    RatingSvc --> MongoRating\n    NotifSvc --> MongoNotif\n\n    OrderSvc -->|HTTP Stock Deduction| Catalog\n    OrderSvc -->|Publish ORDER_COMPLETED| Kafka\n    Kafka -->|Consume ORDER_COMPLETED| NotifSvc',
     category: "Full Stack, Microservices",
     timeline: "Aug 2026",
     team: "1 member",
@@ -90,7 +92,8 @@ const projectsData = {
       "/assets/projects/tribelingo/image 16.png"
     ],
     liveDemo: "https://tribelingo.onrender.com/",
-    github: "https://github.com/SK963/TribeLingo-Gateway",
+    github: "https://github.com/SK963/TribeLingo",
+    architecture: 'graph TB\n    User([User / Browser])\n\n    subgraph Edge["Edge Layer - K8s"]\n        GWF["NGINX Gateway Fabric<br/>LoadBalancer :80"]\n    end\n\n    subgraph Frontend\n        Client["React + Vite + Tailwind<br/>tribelingo-client :80"]\n    end\n\n    subgraph GatewaySvc["API Gateway"]\n        GW["Node.js / Express / Prisma<br/>tribelingo-gateway :4000"]\n    end\n\n    subgraph ML["AI / ML Microservices - Custom Models"]\n        Translate["Translation Service<br/>NLLB Transformer<br/>:4001"]\n        POS["POS Tagging Service<br/>BiLSTM Model<br/>:4002"]\n        Chatbot["Chatbot Service<br/>Gemma-2B + LoRA<br/>:4003"]\n    end\n\n    subgraph Storage\n        Postgres[("PostgreSQL 15<br/>User Data & History")]\n        Redis[("Redis 7<br/>Caching & Sessions")]\n    end\n\n    subgraph External\n        GoogleOAuth["Google / GitHub OAuth"]\n    end\n\n    User -->|HTTP| GWF\n    GWF -->|"/* static assets"| Client\n    GWF -->|"/api/*"| GW\n\n    Client -->|"/api/* calls"| GW\n\n    GW <-->|OAuth2| GoogleOAuth\n    GW <-->|Prisma ORM| Postgres\n    GW <-->|ioredis| Redis\n\n    GW -->|HTTP Proxy| Translate\n    GW -->|HTTP Proxy| POS\n    GW -->|HTTP Proxy| Chatbot',
     category: "Data Science, Web",
     timeline: "May 2026",
     team: "1 member",
@@ -257,6 +260,16 @@ export default function ProjectDetail({ params }: { params: Promise<{ id: string
                 {project.fullDescription}
               </p>
             </motion.section>
+
+            {/* Architecture */}
+            {(project as { architecture?: string }).architecture && (
+              <div className="mb-12">
+                <h2 className="text-2xl font-bold mb-6">System Architecture</h2>
+                <div className="bg-muted/30 border border-border/50 rounded-xl p-6 overflow-x-auto text-sm text-center">
+                  <Mermaid chart={(project as { architecture?: string }).architecture!} />
+                </div>
+              </div>
+            )}
 
             {/* Key Features */}
             <motion.section
