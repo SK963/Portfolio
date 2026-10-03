@@ -45,8 +45,8 @@
       "description": "I'm a passionate full stack developer with a love for creating innovative solutions and building robust applications that make a difference.",
       "sectionTitle": "Building the Future with Code",
       "introduction": "As a passionate full stack developer eager to begin my professional journey, I specialize in building modern, user-focused web applications. My enthusiasm for software development is driven by curiosity, creativity, and a constant desire to learn and improve.",
-      "philosophy": "I believe in writing clean, efficient, and maintainable code while continuously learning new tools and best practices. Whether it’s developing interactive front-end interfaces or understanding scalable backend logic, I approach each challenge with focus and determination.",
-      "personalNote": "When I’m not coding, I enjoy exploring emerging technologies, working on personal projects, and contributing to open-source communities to sharpen my skills and collaborate with other developers."
+      "philosophy": "I believe in writing clean, efficient, and maintainable code while continuously learning new tools and best practices. Whether it\u2019s developing interactive front-end interfaces or understanding scalable backend logic, I approach each challenge with focus and determination.",
+      "personalNote": "When I\u2019m not coding, I enjoy exploring emerging technologies, working on personal projects, and contributing to open-source communities to sharpen my skills and collaborate with other developers."
     },
     "highlights": [
       {
@@ -403,6 +403,35 @@
     "Beginner": "60-69%"
   },
   "projects": [
+    {
+      "type": "inuse",
+      "id": "cake-delight",
+      "name": "Cake Delight",
+      "title": "Cake Delight - Microservices Cloud-Native Bakery Platform",
+      "description": "A scalable, cloud-native E-commerce platform for a premium bakery.",
+      "image": "/assets/projects/cake-delight/image1.png",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "React",
+        "MongoDB",
+        "Apache Kafka",
+        "Docker",
+        "Kubernetes"
+      ],
+      "features": [
+        "API Gateway",
+        "Catalog Service",
+        "Order Service",
+        "Rating & Notification Services",
+        "JWT Authentication"
+      ],
+      "liveDemo": "#",
+      "github": "https://github.com/SK963/cake-delight",
+      "category": "Full Stack, Microservices",
+      "timeline": "Aug 2026",
+      "team": "1 member"
+    },
     {
       "type": "inuse",
       "id": "tribelingo",

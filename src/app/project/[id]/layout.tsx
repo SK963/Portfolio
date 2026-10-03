@@ -2,6 +2,7 @@ import React from 'react';
 
 export function generateStaticParams() {
   return [
+    { id: 'cake-delight' },
     { id: 'tribelingo' },
     { id: 'notecraft' },
     { id: 'hr-analytics-excel' },

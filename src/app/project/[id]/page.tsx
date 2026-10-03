@@ -11,6 +11,7 @@ import userData from "@/data/user.json";
 // Helper function to get project data from JSON
 const getProjectFromJSON = (id: string) => {
   const projectMappings: { [key: string]: string } = {
+    "cake-delight": "Cake Delight",
     "tribelingo": "TribeLingo",
     "notecraft": "NoteCraft",
     "hr-analytics-excel": "HR Analytics",
@@ -34,6 +35,40 @@ const getProjectFromJSON = (id: string) => {
 
 // Project data with all images and details
 const projectsData = {
+    "cake-delight": {
+    id: "cake-delight",
+    title: "Cake Delight",
+    description: "A scalable, cloud-native E-commerce platform for a premium bakery.",
+    fullDescription: "Cake Delight is a modern, scalable, and resilient microservices-based E-commerce application designed for a premium bakery. It features an API Gateway, Catalog Service, Order Service, Rating Service, and Notification Service, seamlessly communicating via REST and Apache Kafka. The system is containerized with Docker and orchestrated using Kubernetes for production readiness.",
+    technologies: ["Node.js", "Express", "React", "MongoDB", "Apache Kafka", "Docker", "Kubernetes"],
+    features: [
+      "API Gateway Pattern",
+      "Event-Driven Architecture (Kafka)",
+      "JWT-Based Authentication",
+      "Kubernetes Orchestration"
+    ],
+    images: [
+      "/assets/projects/cake-delight/image1.png",
+      "/assets/projects/cake-delight/image2.png",
+      "/assets/projects/cake-delight/image3.png",
+      "/assets/projects/cake-delight/image4.png",
+      "/assets/projects/cake-delight/image5.png",
+      "/assets/projects/cake-delight/image6.png",
+      "/assets/projects/cake-delight/image7.png",
+      "/assets/projects/cake-delight/image8.png",
+      "/assets/projects/cake-delight/image9.png"
+    ],
+    liveDemo: "#",
+    github: "https://github.com/SK963/cake-delight",
+    category: "Full Stack, Microservices",
+    timeline: "Aug 2026",
+    team: "1 member",
+    highlights: [
+      "Microservices Architecture",
+      "Asynchronous Order Processing",
+      "Cloud-Native Deployment"
+    ]
+  },
   "tribelingo": {
     id: "tribelingo",
     title: "TribeLingo",
