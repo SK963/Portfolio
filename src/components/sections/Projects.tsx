@@ -41,7 +41,7 @@ const Projects = () => {
       ],
       liveDemo: "https://cakedelight.onrender.com",
       github: "https://github.com/SK963/cake-delight",
-      category: "Full Stack, Microservices",
+      category: "Web, Full Stack, Microservices",
       timeline: "Aug 2026",
       team: "1 member"
     },
