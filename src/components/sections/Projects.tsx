@@ -9,6 +9,7 @@ import userData from "@/data/user.json";
 // Helper function to get project data from JSON
 const getProjectDataFromJSON = (projectId: string) => {
   const projectMappings: { [key: string]: string } = {
+    "cake-delight": "Cake Delight",
     "tribelingo": "TribeLingo",
     "notecraft": "NoteCraft",
     "hr-analytics-excel": "HR Analytics",
@@ -27,6 +28,24 @@ const getProjectDataFromJSON = (projectId: string) => {
 const Projects = () => {
   // Base projects structure with hardcoded data as fallback
   const baseProjects = [
+    {
+      id: "cake-delight",
+      title: "Cake Delight",
+      description: "A scalable, cloud-native E-commerce platform for a premium bakery.",
+      image: "/assets/projects/cake-delight/image1.png",
+      technologies: ["Node.js", "Express", "React", "MongoDB", "Apache Kafka", "Docker", "Kubernetes"],
+      features: [
+        "API Gateway Pattern",
+        "Event-Driven Architecture (Kafka)",
+        "JWT-Based Authentication",
+        "Kubernetes Orchestration"
+      ],
+      liveDemo: "https://cakedelight.onrender.com/",
+      github: "https://github.com/SK963/cake-delight",
+      category: "Full Stack, Microservices",
+      timeline: "Aug 2026",
+      team: "1 member"
+    },
     {
       id: "tribelingo",
       title: "TribeLingo",
