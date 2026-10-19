@@ -10,9 +10,7 @@ import userData from "@/data/user.json";
 const getProjectDataFromJSON = (projectId: string) => {
   const projectMappings: { [key: string]: string } = {
     "cake-delight": "Cake Delight",
-    "tribelingo": "TribeLingo",
-    "hr-analytics-excel": "HR Analytics",
-    "ibm-hr-tableau": "IBM HR Analytics"
+    "tribelingo": "TribeLingo"
   };
   
   const projectName = projectMappings[projectId];
@@ -59,45 +57,11 @@ const Projects = () => {
       ],
       liveDemo: "https://tribelingo.onrender.com/",
       github: "https://github.com/SK963/TribeLingo",
-      category: "Data Science, Web",
+      category: "Web, AI/ML",
       timeline: "May 2026",
       team: "1 member"
-    },
-    {
-      id: "hr-analytics-excel",
-      title: "HR Analytics Excel Dashboard",
-      description: "An Excel-based analysis dashboard for Human Resources data.",
-      image: "/assets/projects/hr-analytics-excel/image.png",
-      technologies: ["Excel"],
-      features: [
-        "Data visualization and reporting",
-        "Employee attrition analysis",
-        "Interactive dashboard"
-      ],
-      liveDemo: "https://1drv.ms/x/c/b722794a7ace580f/EfSivCOtm6hGiFht4PuQ1J8BLjoiTTwH48H_5w3zHd6Efg?e=kos38f",
-      github: "#",
-      category: "Data Science",
-      timeline: "2025",
-      team: "1 member"
-    },
-    {
-      id: "ibm-hr-tableau",
-      title: "IBM HR Analytics Tableau Dashboard",
-      description: "A Tableau visualization dashboard for analyzing IBM HR data.",
-      image: "/assets/projects/ibm-hr-tableau/image.png",
-      technologies: ["Tableau", "Excel"],
-      features: [
-        "Advanced data visualization",
-        "Interactive Tableau dashboards",
-        "HR metrics tracking"
-      ],
-      liveDemo: "https://public.tableau.com/views/IBMHRAnalytics_17485310101300/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-      github: "#",
-      category: "Data Science",
-      timeline: "2025",
-      team: "1 member"
     }
-  ];
+    ];
 
   // Enhanced projects with JSON data integration
   const projects = baseProjects.map(project => {
@@ -109,7 +73,7 @@ const Projects = () => {
     };
   });
 
-  const categories = ["All", "Web", "Data Science"];
+  const categories = ["All", "Web"];
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   const filteredProjects = selectedCategory === "All" 

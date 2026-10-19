@@ -13,9 +13,7 @@ import userData from "@/data/user.json";
 const getProjectFromJSON = (id: string) => {
   const projectMappings: { [key: string]: string } = {
     "cake-delight": "Cake Delight",
-    "tribelingo": "TribeLingo",
-    "hr-analytics-excel": "HR Analytics",
-    "ibm-hr-tableau": "IBM HR Analytics"
+    "tribelingo": "TribeLingo"
   };
   
   const projectName = projectMappings[id];
@@ -94,64 +92,13 @@ const projectsData = {
     liveDemo: "https://tribelingo.onrender.com/",
     github: "https://github.com/SK963/TribeLingo",
     architecture: 'graph TB\n    User([User / Browser])\n\n    subgraph Edge["Edge Layer - K8s"]\n        GWF["NGINX Gateway Fabric<br/>LoadBalancer :80"]\n    end\n\n    subgraph Frontend\n        Client["React + Vite + Tailwind<br/>tribelingo-client :80"]\n    end\n\n    subgraph GatewaySvc["API Gateway"]\n        GW["Node.js / Express / Prisma<br/>tribelingo-gateway :4000"]\n    end\n\n    subgraph ML["AI / ML Microservices - Custom Models"]\n        Translate["Translation Service<br/>NLLB Transformer<br/>:4001"]\n        POS["POS Tagging Service<br/>BiLSTM Model<br/>:4002"]\n        Chatbot["Chatbot Service<br/>Gemma-2B + LoRA<br/>:4003"]\n    end\n\n    subgraph Storage\n        Postgres[("PostgreSQL 15<br/>User Data & History")]\n        Redis[("Redis 7<br/>Caching & Sessions")]\n    end\n\n    subgraph External\n        GoogleOAuth["Google / GitHub OAuth"]\n    end\n\n    User -->|HTTP| GWF\n    GWF -->|"/* static assets"| Client\n    GWF -->|"/api/*"| GW\n\n    Client -->|"/api/* calls"| GW\n\n    GW <-->|OAuth2| GoogleOAuth\n    GW <-->|Prisma ORM| Postgres\n    GW <-->|ioredis| Redis\n\n    GW -->|HTTP Proxy| Translate\n    GW -->|HTTP Proxy| POS\n    GW -->|HTTP Proxy| Chatbot',
-    category: "Data Science, Web",
+    category: "Web, AI/ML",
     timeline: "May 2026",
     team: "1 member",
     highlights: [
       "AI-powered language preservation",
       "Custom-trained BiLSTM and NLLB models",
       "LoRA fine-tuned Gemma-2B-it model"
-    ]
-  },
-  "hr-analytics-excel": {
-    id: "hr-analytics-excel",
-    title: "HR Analytics Excel Dashboard",
-    description: "An Excel-based analysis dashboard for Human Resources data.",
-    fullDescription: "A comprehensive Excel dashboard created to analyze and track key Human Resources metrics. It provides an intuitive interface for viewing employee data, attrition rates, and overall organizational health through dynamic charts and tables.",
-    technologies: ["Excel"],
-    features: [
-      "Data visualization and reporting",
-      "Employee attrition analysis",
-      "Performance tracking",
-      "Interactive dashboard"
-    ],
-    images: [
-      "/assets/projects/hr-analytics-excel/image.png"
-    ],
-    liveDemo: "https://1drv.ms/x/c/b722794a7ace580f/EfSivCOtm6hGiFht4PuQ1J8BLjoiTTwH48H_5w3zHd6Efg?e=kos38f",
-    github: "#",
-    category: "Data Science",
-    timeline: "2025",
-    team: "1 member",
-    highlights: [
-      "Interactive Excel Dashboard",
-      "Key HR Metrics Visualization"
-    ]
-  },
-  "ibm-hr-tableau": {
-    id: "ibm-hr-tableau",
-    title: "IBM HR Analytics Tableau Dashboard",
-    description: "A Tableau visualization dashboard for analyzing IBM HR data.",
-    fullDescription: "An advanced Tableau dashboard built to analyze IBM's Human Resources dataset. This visualization project uncovers insights into employee attrition, satisfaction levels, and demographics, providing actionable data for HR professionals.",
-    technologies: ["Tableau", "Excel"],
-    features: [
-      "Advanced data visualization",
-      "Interactive Tableau dashboards",
-      "HR metrics tracking",
-      "Predictive analytics"
-    ],
-    images: [
-      "/assets/projects/ibm-hr-tableau/Screenshot_2025-05-29_205004.png",
-      "/assets/projects/ibm-hr-tableau/image.png"
-    ],
-    liveDemo: "https://public.tableau.com/views/IBMHRAnalytics_17485310101300/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-    github: "#",
-    category: "Data Science",
-    timeline: "2025",
-    team: "1 member",
-    highlights: [
-      "Published on Tableau Public",
-      "In-depth attrition analysis"
     ]
   }
 };
